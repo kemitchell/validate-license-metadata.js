@@ -1,7 +1,7 @@
 {
   "name": "validate-license-metadata",
   "description": "ensure that license metadata in package.json meets npm guidelines",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": {
     "name": "Kyle E. Mitchell",
     "email": "kyle@kemitchell.com",
