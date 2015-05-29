@@ -1,0 +1,42 @@
+{
+  "name": "validate-license-metadata",
+  "description": "ensure that license metadata in package.json meets npm guidelines",
+  "version": "0.0.0",
+  "author": {
+    "name": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "http://kemitchell.com"
+  },
+  "bin": {
+    "validate-license-metadata": "./bin/validate-license-metadata"
+  },
+  "bugs": {
+    "url": "https://github.com/kemitchell/validate-license-metadata.js/issues"
+  },
+  "dependencies": {
+    "docopt": "0.6.2",
+    "spdx": "0.4.0"
+  },
+  "devDependencies": {
+    "fixpack": "2.2.0",
+    "jscs": "1.13.1",
+    "jshint": "2.7.0"
+  },
+  "homepage": "https://github.com/kemitchell/validate-license-metadata.js",
+  "keywords": [
+    "SPDX",
+    "license",
+    "metadata",
+    "package.json"
+  ],
+  "license": "Apache-2.0",
+  "main": "source/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemitchell/validate-license-metadata.js.git"
+  },
+  "scripts": {
+    "lint": "fixpack && jshint source && jscs source",
+    "precommit": "npm run lint"
+  }
+}

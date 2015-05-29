@@ -1,0 +1,6 @@
+Ensure that license metadata in package.json meets npm guidelines.
+
+Usage:
+  validate-license-metadata
+  validate-license-metadata --help | -h
+  validate-license-metadata --version | -v
